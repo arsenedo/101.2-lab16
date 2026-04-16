@@ -1,4 +1,4 @@
-object SelectionSort extends sort {
+object SelectionSort extends Sort {
   override def sort(a: Array[Int]): Array[Int] = {
     for (i <- a.indices) {
       var smallestNumberIdx: Int = i
