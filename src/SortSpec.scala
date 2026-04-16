@@ -4,7 +4,7 @@ import org.scalatest.matchers.should.Matchers
 import org.scalatest.prop.TableDrivenPropertyChecks
 
 
-/*
+
 class SortSpec extends propspec.AnyPropSpec with TableDrivenPropertyChecks with Matchers with GivenWhenThen {
   val factories =
     Table(
@@ -46,4 +46,3 @@ class SortSpec extends propspec.AnyPropSpec with TableDrivenPropertyChecks with 
     }
   }
 }
- */
