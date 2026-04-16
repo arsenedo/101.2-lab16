@@ -3,7 +3,7 @@ object SortApplication extends App {
     println(a.mkString(","))
   }
   println("test selection sort")
-  var array = InvertedSortedArrayFactory.create(9)
+  var array = RandomArrayFactory.create(10)
   displayArray(array)
   displayArray(SelectionSort.sort(array))
 
